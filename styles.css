@@ -1,0 +1,135 @@
+html {
+    scroll-behavior: smooth;
+}
+h1 {
+    text-align: center;
+    color: red;
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+a {
+    font-size: 1.3rem;
+}
+
+/* NAVIGATION BAR */
+
+nav {
+    text-align: center;
+    background: rgb(7, 243, 212);
+    padding: 15px 40px;
+}
+
+.headpart {
+    display: inline;
+    /* To list out the list elements in a same line */
+    padding: 10px 15px;
+    margin: 0px 20px;
+    background: green;
+    border-radius: 25px;
+}
+
+.headpart a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* ABOUT ME SECTION */
+
+#about-me {
+    padding: 10px 0px 20px 200px;
+    font-size : 1.2rem;
+    background: yellow;
+}
+
+#about-me p {
+    width: 50%;
+}
+
+#about-me button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 25px;
+    font-size: 1.3rem;
+    background: black;
+    display: block;
+}
+
+#about-me button a {
+    text-decoration: none;
+    color: white;
+}
+
+#about-me img {
+    border-radius: 25px;
+}
+
+/* EDUCATION SECTION */
+
+#education {
+    background:rgb(7, 243, 212);
+    margin: 0px;
+    padding: 30px 0px;
+}
+
+.edudiv
+{
+    width: 40%;
+    border: 3px solid;
+    text-align: center;
+    margin: 10px auto 20px;
+}
+
+/* SKILLS */
+
+#skills {
+    background: yellow;
+    padding: 30px 0px;
+}
+
+.skills-div {
+    margin: 20px auto;
+    width: 40%;
+}
+
+/* PROJECT */
+
+#project {
+    background:rgb(7, 243, 212);
+    margin: 0px;
+    padding: 30px 0px;
+}
+
+/* PROJECTS */
+
+#project {
+    text-align: center;
+}
+
+#project a {
+    display: block;
+    margin: 20px auto;
+}
+
+/* Contact */
+
+#contact  {
+    background: yellow;
+    padding: 30px 0px;
+    text-align: center;
+}
+
+#contact img {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    margin: 0px 5px;
+}
